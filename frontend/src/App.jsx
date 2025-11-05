@@ -7,6 +7,7 @@ import TaskList from './components/TaskList'
 import TaskEdit from './components/TaskEdit'
 import TaskDelete from './components/TaskDelete'
 import TaskSearch from './components/TaskSearch'
+import TaskCreatee from './TaskCreatee'
 
 function App() {
 
@@ -19,8 +20,8 @@ function App() {
     <TaskEdit/>
     <TaskDelete/>
     <TaskSearch/>
-      
       <TaskManager/>
+      <TaskCreatee/>
       {/* <TaskManager/> */}
     </>
   )
